@@ -1,0 +1,8 @@
+p=[]
+n=range(100,999)
+for x in n:
+    for y in n:
+        a=x*y
+        if str(a)==str(a)[::-1]:
+            p.append(a)
+print(max(p))
